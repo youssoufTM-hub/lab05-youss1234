@@ -27,10 +27,10 @@ def main():
             line = line.rstrip("\n")
             if (args.ignore_case):
                 if args.pattern.lower() in line.lower():
-                    print(f'{i} : {line}')
+                    print(f'{i}: {line}')
             else:
                 if args.pattern in line:
-                    print(f'{i} : {line}')
+                    print(f'{i}: {line}')
 
 
 if __name__ == "__main__":
